@@ -7,7 +7,7 @@ import Reporter from './reporter';
 import * as utils from './utils';
 
 export interface RunnerOptions {
-	type: 'sync' | 'async';
+	type: 'sync' | 'async' | 'stream';
 	pattern: string;
 	launches: number;
 	maxStdev: number;
